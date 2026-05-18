@@ -3,7 +3,7 @@
 #include <stdio.h>
 //Variable compartida
 int a=0;
-long MAX=1000000;
+long MAX=100000000;
 void * funcion_hilo1(void *arg);
 void * funcion_hilo2(void *arg);
 //Declarar el semáforo
