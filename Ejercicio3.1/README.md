@@ -11,9 +11,7 @@ Resultados al correr los hilos modificando la variable global `a`, sin semáforo
 | **1 000** | 0 |
 | **10 000** | 0 |
 | **100 000** | 0 |
-| **1 000 000** | 0 |
-| **1e9** | 0 |
-| **1e12** | No finaliza / Tiempo de ejecución excesivo |
+| **1 000 000** | -276940 |
 
 #### ¿Por qué sale esto?
 * **Valores bajos (1 000 a 100 000):** Da `0` porque el procesador los corre tan rápido que un hilo termina todo su bucle antes de que el sistema operativo haga el cambio de contexto, al ejecutarse uno primero y el otro después, no chocan
